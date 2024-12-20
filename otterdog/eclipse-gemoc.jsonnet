@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-gemoc') {
+orgs.newOrg('modeling.gemoc', 'eclipse-gemoc') {
   settings+: {
     blog: "https://gemoc.org/studio.html",
     description: "A language and modeling workbench for executable modeling",
